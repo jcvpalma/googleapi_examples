@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maps Test</title>
+        
+        <link href="~/Content/bootstrap.css" rel="stylesheet" />
+        <link href="~/Content/DataTables/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+        <script src="~/Scripts/jquery-2.2.0.min.js"></script>
+        <script src="~/Scripts/bootstrap.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQJLU3tSx867nl6cZa7kGMooG9mY7lghk&signed_in=true&libraries=geometry"></script>
+        <script src="~/Scripts/DataTables/jquery.dataTables.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="container">
+             @RenderBody()
+        </div>
+        
+        @RenderSection("Scripts", false)
+    </body>
+</html>
